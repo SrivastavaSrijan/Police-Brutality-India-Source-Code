@@ -25,7 +25,7 @@ $grey: #353f2d;
 $skyblue: #080808;
 $blue-1: #8cd1c3;
 $purple: #bb86fc;
-$green: #9fbf87;
+$green: #51be58;
 
 //Brand
 $light-blue: #cef5ed;
@@ -51,11 +51,11 @@ $navbar-dropdown-background-color: transparentize($black, 0.3);
 //Custom colors
 $primary: $muted-red;
 $light: $blue-1;
-$info: $black;
+$info: $main-color;
 $link: $dark-blue;
-$success: $vlight-green;
+$success: $main-color;
 $warning: $green;
-$danger: darken($muted-red, 20%);
+$danger: darken($red, 50%);
 //Other props
 $widescreen-enabled: false;
 $fullhd-enabled: false;

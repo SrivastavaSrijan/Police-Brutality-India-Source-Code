@@ -4,10 +4,10 @@ export const Body = () => {
   return (
     <section className='section '>
       <div className='container'>
-        <h2 className='subtitle has-text-white has-background-primary'>
+        <h1 className='title is-size-2 is-size-3-mobile has-text-white has-background-primary'>
           What happened.
-        </h2>
-        <p className='content has-text-black  is-family-secondary'>
+        </h1>
+        <p className='content is-size-5 is-size-6-mobile has-text-black  is-family-secondary'>
           On June 19th 2020, P Jayaraj (59) and his son Fenix (31), residents of
           Tuticorin were picked up for questioning by the cops in the
           Sathankulam police force for violating lockdown rules. The police said
@@ -17,10 +17,10 @@ export const Body = () => {
           beaten and sodomized with iron tipped lathis (batons). On June 22nd,
           Fenix died of his injuries and his father died the following day.
         </p>
-        <h2 className='subtitle has-text-white has-background-primary'>
+        <h1 className='title is-size-2 is-size-3-mobile has-text-white has-background-primary'>
           What you can do.
-        </h2>
-        <p className='content has-text-black  is-family-secondary'>
+        </h1>
+        <p className='content is-size-5 is-size-6-mobile has-text-black  is-family-secondary'>
           Help Jayaraj, Fenix, and the thousands other Indians who've fallen
           victim to violence at the hands of the police get justice. We demand
           appropriate legal action and professional suspension of the policemen

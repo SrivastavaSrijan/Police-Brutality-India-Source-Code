@@ -2,45 +2,50 @@ import React from 'react';
 import MainPicture from './Assets/MainPicture.webp';
 export const Head = () => {
   return (
-    <section class='hero is-primary is-small is-bold'>
-      <div class='hero-body container is-fluid'>
-        <div class='columns is-vcentered'>
-          <div class='column is-7'>
-            <h1 className='title is-size-2 is-size-3-mobile has-text-weight-bold'>
-              #JusticeforJayarajandFenix
+    <section className='hero is-primary is-small is-bold'>
+      <div className='hero-body container is-fluid'>
+        <div className='columns is-vcentered'>
+          <div className='column is-9'>
+            <h2 className='is-size-5 is-size-6-mobile has-text-weight-light'>
+              Justice for
+            </h2>{' '}
+            <h1 className='title is-size-1 is-size-2-mobile has-text-weight-bold'>
+              Jayaraj and Fenix
             </h1>
-
-            <p class='subtitle is-size-5 has-margin-top-20 is-family-secondary'>
+            <p className='subtitle is-size-5 is-size-6-mobile has-margin-top-20 is-family-secondary'>
               Raise your voice against police brutality.
             </p>
-
-            <div class='control'>
-              <button class='button is-white is-medium'>
+            <div className='control'>
+              <button className='button is-white is-medium'>
                 <a
                   href='#Email'
                   // target='_blank'
                   // rel='noopener noreferrer'
                   className='has-text-black'
                 >
-                  How you can help
+                  HOW YOU CAN HELP
                 </a>
               </button>
             </div>
           </div>
 
-          {/* <div class='column is-4 has-text-centered is-paddingless is-marginless'>
-            <figure class='image is-128by128'>
-              <img src={MainPicture} alt='Jayaraj and Fenix, illustration' />
+          <div className='column is-4 has-text-centered is-paddingless is-marginless'>
+            <figure className='image  is-256x256 is-rounded'>
+              <img
+                style={{ filter: 'contrast(1.5)' }}
+                src={MainPicture}
+                alt='Jayaraj and Fenix, illustration'
+              />
             </figure>
-          </div> */}
+          </div>
         </div>
       </div>
 
-      <div class='hero-foot'>
-        <nav class='tabs'>
-          <div class='container is-fluid'>
+      <div className='hero-foot'>
+        <nav className='tabs'>
+          <div className='container is-fluid'>
             <ul>
-              {/* <li class='is-active'>
+              {/* <li className='is-active'>
                 <a
                   rel='noopener noreferrer'
                   target='_blank'

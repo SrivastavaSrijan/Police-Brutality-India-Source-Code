@@ -17,11 +17,7 @@ export const FormInput = ({
 }) => {
   return (
     <div className='field mb-4 px-5 '>
-      <div
-        className={`control has-icons-left has-icons-right ${
-          isSubmitting ? 'is-loading' : ''
-        }`}
-      >
+      <div className={`control ${isSubmitting ? 'is-loading' : ''}`}>
         <label
           className='label is-size-6 is-size-7-mobile has-text-white is-family-secondary'
           htmlFor={forWhat}
@@ -29,7 +25,7 @@ export const FormInput = ({
           {label}
         </label>
         <input
-          className={`input is-small ${
+          className={`input is-size-6 is-family-secondary is-medium ${
             errors[forWhat] && touched[forWhat] ? 'is-danger' : ''
           }`}
           id={forWhat}
@@ -41,16 +37,11 @@ export const FormInput = ({
           values={values[forWhat]}
           autoComplete={autoComplete}
         />
-
-        <span className='icon is-small is-left'>
-          <i>{children}</i>
-        </span>
-        {errors[forWhat] && touched[forWhat] ? (
-          <span className='icon is-small is-right'></span>
-        ) : null}
       </div>
       {errors[forWhat] && touched[forWhat] ? (
-        <p className='help is-danger is-size-7'>{errors[forWhat]}</p>
+        <p className='help is-danger is-size-6 has-family-secondary'>
+          &#9888; {errors[forWhat]}
+        </p>
       ) : null}
     </div>
   );
