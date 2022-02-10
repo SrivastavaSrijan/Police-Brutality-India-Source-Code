@@ -1,7 +1,7 @@
 ## ✊🏿 Social Work
 Hold your representatives accountable by this SPA which circumvents spam filters ✊🏿
 ## 👁️ Preview
-Check it out here - [Word Race](https://apps.srijansrivastava.tech/PoliceBrutalityIndia/)
+Check it out here - [Police Brutality India](https://apps.srijansrivastava.tech/PoliceBrutalityIndia/)
 
 ## ⏲️ About the Application
 
